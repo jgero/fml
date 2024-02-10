@@ -1,0 +1,9 @@
+[[flatStringList]]
+"entry 1"
+[[nested.complexObjectList]]
+value = "entry 1"
+
+[[flatStringList]]
+"entry 2"
+[[nested.complexObjectList]]
+value = "entry 2"

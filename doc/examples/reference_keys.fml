@@ -1,0 +1,9 @@
+[entities.campus]
+aspects = [ aspects.location ]
+attibutes = {
+  name.type = string
+}
+[aspects.location]
+attibutes = {
+  name.type = string
+}

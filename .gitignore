@@ -1,0 +1,9 @@
+# lex generated files
+*.yy.c
+
+# yacc generated files
+*.tab.c
+
+# bin
+result
+*.out

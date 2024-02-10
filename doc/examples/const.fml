@@ -1,0 +1,16 @@
+[const]
+PLACEHOLDER = "MISSING ATTRIBUTE VALUE"
+
+[entities.campus]
+aspects = with aspects; [ location ]
+attibutes = {
+  name = {
+    type = string
+    defaultValue = const.PLACEHOLDER
+  }
+}
+[aspects.location]
+attibutes = {
+  size.resolved = count(relations.location2placable)
+  size.readonly = true
+}
